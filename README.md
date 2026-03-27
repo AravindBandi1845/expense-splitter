@@ -2,6 +2,8 @@
 
 A high-performance, intuitive web application designed to automate group expense tracking and simplify debt settlements. This project was developed as a technical submission for the **NeevAI Internship 2026**.
 
+## [Live Demo Link](https://expense-splitter-aravind.netlify.app/) 
+
 ---
 
 ##  Core Features & Engineering Logic
@@ -23,7 +25,7 @@ I implemented a **Greedy Algorithm** to simplify complex group debts into the **
 ##  Technical Architecture
 * **Frontend:** HTML5 & CSS3 (Clean, Responsive UI)
 * **Logic Engine:** Vanilla JavaScript (ES6+) — *Chosen for maximum performance and zero dependency overhead.*
-* **Deployment:** Vercel (CI/CD Pipeline via GitHub)
+* **Deployment:** Netlify (CI/CD Pipeline via GitHub)
 
 ---
 
@@ -35,5 +37,7 @@ I implemented a **Greedy Algorithm** to simplify complex group debts into the **
 
 ---
 
- Author
-Aravind Bandi| 3rd Year B.Tech CSE (AI/ML) Student | CGPA: 9.38 Email:aravind.bandi1845@gmail.com
+##  Local Setup
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AravindBandi1845/smart-expense-splitter.git
