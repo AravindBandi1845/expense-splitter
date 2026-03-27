@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EXPENSE SPLITTER</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Expense Splitter App</h1>
+        <!-- Adding Members -->
+         <h2>Add Member</h2>
+         <input type="text" id="memberName" placeholder="Enter the member name">
+         <button onclick="addMember()">Add Member</button>
+         <h3>Members are:</h3>
+         <ul id="MembersList"></ul>
+         <hr>
+         <h2>Add the Expense</h2>
+         <input type="number" id="amount" placeholder="Enter the amount">
+         <select id="paidBy">
+            <option value="">select the payer</option>
+         </select>
+         <!---This field is optional customsplit:user can enter amounts for every member separated by commas or if it is left empty,by default applies the equal split-->
+         <input type="text" id="customShares" placeholder="optional:CustomShares(separated by comma)">
+         <input type="text" id="description" placeholder=" Enter Expense Description(like food,travel,etc.)">
+        <button onclick="addExpense()">Add Expense</button> 
+        <h3>Balance:</h3>
+        <ul id="BalanceList"></ul>
+        <h3>Settlements:</h3>
+        <ul id="SettlementList"></ul>
+        <h3>Spending Analytics:</h3>
+        <ul id="CategoryList"></ul>
+        <script src="script.js"></script>
+       </body>
+</html>
