@@ -54,7 +54,7 @@ function addExpense(){
         }
         let totalShares=shares.reduce((a,b)=>a+b,0);
         if(totalShares.toFixed(2)!=amount.toFixed(2)){
-            alert("Sum of the customShares but be equal to Total Amount");
+            alert("Sum of the customShares must be equal to Total Amount");
             return;
         }
     }
