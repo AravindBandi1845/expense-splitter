@@ -6,6 +6,7 @@ A high-performance, intuitive web application designed to automate group expense
 
 ---
 
+
 ##  Core Features & Engineering Logic
 
 ###  1. Smart AI Categorization
